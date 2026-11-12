@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/batalha.mp3-d35045dc9f472ecb9c09e0d9d8454d1c.mp3str"
+
+[deps]
+
+source_file="res://musicas/batalha.mp3"
+dest_files=[ "res://.import/batalha.mp3-d35045dc9f472ecb9c09e0d9d8454d1c.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

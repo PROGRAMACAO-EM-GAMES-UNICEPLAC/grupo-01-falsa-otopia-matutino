@@ -1,0 +1,74 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Vitoria.gd" type="Script" id=1]
+[ext_resource path="res://steam.jpg" type="Texture" id=2]
+[ext_resource path="res://musicas/vitoria.mp3" type="AudioStream" id=3]
+
+[node name="Vitoria" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+
+[node name="Fundo" type="TextureRect" parent="."]
+margin_left = 3.0
+margin_top = 3.0
+margin_right = 638.0
+margin_bottom = 357.0
+texture = ExtResource( 2 )
+expand = true
+stretch_mode = 7
+
+[node name="Titulo" type="Label" parent="."]
+modulate = Color( 1, 0.996078, 0.996078, 1 )
+margin_left = 19.0
+margin_top = 14.0
+margin_right = 193.0
+margin_bottom = 50.0
+text = "Parábens!!"
+align = 1
+valign = 1
+
+[node name="Mensagem" type="Label" parent="."]
+margin_left = -10.0
+margin_top = 48.0
+margin_right = 236.0
+margin_bottom = 105.0
+text = "Derrotou todos os chefes!!"
+align = 1
+valign = 1
+
+[node name="Creditos" type="Label" parent="."]
+modulate = Color( 0.988235, 0.988235, 0.988235, 1 )
+margin_left = -1.0
+margin_top = 95.0
+margin_right = 229.0
+margin_bottom = 150.0
+text = "Obrigado por jogar OS Sentidos!"
+align = 1
+valign = 1
+
+[node name="VoltarMenu" type="Button" parent="."]
+margin_left = 32.0
+margin_top = 268.0
+margin_right = 200.0
+margin_bottom = 323.0
+text = "Voltar ao Menu!"
+
+[node name="MusicaVitoria" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 3 )
+
+[node name="Label" type="Label" parent="."]
+margin_left = -1.0
+margin_top = 140.0
+margin_right = 237.0
+margin_bottom = 239.0
+text = "Agradecimentos a equipe
+ da 'Falsa Utopia\" e
+ ao HMGStudios
+
+O jogo ainda será desenvolvido
+por completo, e um dia, será lançado"
+align = 1
+valign = 1
+
+[connection signal="pressed" from="VoltarMenu" to="." method="_on_VoltarMenu_pressed"]

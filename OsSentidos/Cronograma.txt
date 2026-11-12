@@ -1,0 +1,155 @@
+﻿Perfeito! Aqui está o **cronograma completo de estudos** em texto organizado por semanas e com sugestões diárias de estudo. Você pode seguir esse plano por **12 semanas (3 meses)** para aprender **HTML, CSS, JavaScript, SQL e Java** com prática.
+
+---
+
+# 🧠 CRONOGRAMA DE ESTUDOS – HTML, CSS, JS, SQL e JAVA
+
+**Duração:** 12 semanas (3 meses)
+**Ritmo:** 1h a 2h por dia (ajuste conforme seu tempo)
+
+---
+
+## 📅 **MÊS 1 – Fundamentos da Web: HTML + CSS + JavaScript (início)**
+
+### 🔹 Semana 1 – HTML Básico
+
+* **Dia 1:** O que é HTML + estrutura básica (`html`, `head`, `body`)
+* **Dia 2:** Tags de texto (`h1-h6`, `p`, `strong`, `em`, `br`, `hr`)
+* **Dia 3:** Imagens, links e listas (`img`, `a`, `ul`, `ol`, `li`)
+* **Dia 4:** Tabelas e formulários
+* **Dia 5:** Criar uma página pessoal simples com tudo que aprendeu
+* **Dia 6 e 7:** Revisar + praticar projeto de mini site
+
+---
+
+### 🔹 Semana 2 – CSS Básico
+
+* **Dia 1:** Conceitos: seletor, propriedades e valores
+* **Dia 2:** Cores, fontes, margens, paddings e bordas
+* **Dia 3:** Layout com `display`, `position`, `flexbox`
+* **Dia 4:** CSS interno, externo e inline
+* **Dia 5:** Aplicar CSS ao projeto da semana 1
+* **Dia 6 e 7:** Finalizar mini site com estilo + revisão
+
+---
+
+### 🔹 Semana 3 – JavaScript Básico
+
+* **Dia 1:** Variáveis, tipos de dados e operadores
+* **Dia 2:** Condições (`if`, `else`) e comparações
+* **Dia 3:** Laços de repetição (`for`, `while`)
+* **Dia 4:** Funções e escopo
+* **Dia 5:** Manipulando o DOM (acessar e alterar HTML com JS)
+* **Dia 6 e 7:** Criar projeto simples: calculadora ou contador
+
+---
+
+### 🔹 Semana 4 – JavaScript Interativo
+
+* **Dia 1:** Arrays e objetos
+* **Dia 2:** Eventos (click, mouseover, teclado)
+* **Dia 3:** Formulários e validação
+* **Dia 4:** LocalStorage e salvar dados no navegador
+* **Dia 5:** Criar projeto: to-do list
+* **Dia 6 e 7:** Revisar JS + melhorar o projeto
+
+---
+
+## 📅 **MÊS 2 – SQL + JavaScript Avançado**
+
+### 🔹 Semana 5 – JavaScript Avançado
+
+* **Dia 1:** Manipulação de arrays (`map`, `filter`, `forEach`)
+* **Dia 2:** Objetos aninhados, JSON
+* **Dia 3:** Funções anônimas e callbacks
+* **Dia 4:** Boas práticas de código
+* **Dia 5:** Melhorar o projeto da semana 4
+* **Dia 6 e 7:** Praticar desafios de lógica com JS
+
+---
+
+### 🔹 Semana 6 – Fundamentos de Banco de Dados + SQL
+
+* **Dia 1:** O que é um banco de dados relacional
+* **Dia 2:** `CREATE TABLE`, `INSERT INTO`
+* **Dia 3:** `SELECT`, `WHERE`, `ORDER BY`, `LIMIT`
+* **Dia 4:** `UPDATE`, `DELETE`, tipos de dados
+* **Dia 5:** Projeto: banco de dados de produtos ou usuários
+* **Dia 6 e 7:** Exercícios e revisão
+
+---
+
+### 🔹 Semana 7 – SQL Intermediário
+
+* **Dia 1:** Filtros com `AND`, `OR`, `IN`, `BETWEEN`, `LIKE`
+* **Dia 2:** `JOIN` entre tabelas (INNER, LEFT)
+* **Dia 3:** Agrupamento com `GROUP BY`, `HAVING`, funções de agregação
+* **Dia 4:** Subqueries
+* **Dia 5:** Refatorar banco de dados do projeto anterior
+* **Dia 6 e 7:** Praticar com dados reais
+
+---
+
+### 🔹 Semana 8 – Projeto Integrado Web + Banco
+
+* **Dia 1–4:** Criar projeto HTML + JS que simule consulta ao banco (mock)
+* **Dia 5–7:** Melhorar layout e interação com dados salvos no LocalStorage
+
+---
+
+## 📅 **MÊS 3 – Java do Zero até Orientação a Objetos + SQL**
+
+### 🔹 Semana 9 – Java Básico
+
+* **Dia 1:** Instalar Java + Eclipse/NetBeans
+* **Dia 2:** Tipos, variáveis, operadores
+* **Dia 3:** Condicionais (`if`, `switch`)
+* **Dia 4:** Loops (`for`, `while`, `do-while`)
+* **Dia 5:** Métodos e funções
+* **Dia 6 e 7:** Projeto console: sistema de cadastro simples
+
+---
+
+### 🔹 Semana 10 – Java Orientado a Objetos
+
+* **Dia 1:** Classes e objetos
+* **Dia 2:** Atributos e métodos
+* **Dia 3:** Encapsulamento e construtores
+* **Dia 4:** Herança e polimorfismo
+* **Dia 5:** Praticar com mini projeto OO
+* **Dia 6 e 7:** Finalizar e revisar
+
+---
+
+### 🔹 Semana 11 – Java + SQL (JDBC)
+
+* **Dia 1:** Conectar Java ao banco de dados (JDBC básico)
+* **Dia 2:** Fazer SELECT e INSERT com Java
+* **Dia 3:** UPDATE e DELETE com Java
+* **Dia 4:** Lógica de CRUD em Java com Banco
+* **Dia 5–7:** Criar mini sistema: cadastro de clientes com Java + SQL
+
+---
+
+### 🔹 Semana 12 – Revisão e Projeto Final
+
+* **Dia 1–3:** Escolher seu melhor projeto e refatorar
+* **Dia 4–5:** Escrever documentação simples
+* **Dia 6–7:** Subir para GitHub (se possível) ou salvar versão final
+
+---
+
+## 🎓 Resultado Final:
+
+Você terá aprendido:
+
+* **Front-end completo** com HTML, CSS e JavaScript
+* **Banco de dados relacional** com SQL
+* **Programação em Java**, incluindo OO e integração com banco
+* **Vários projetos práticos** para mostrar no portfólio
+
+---
+
+Se quiser, posso gerar esse cronograma como **PDF ou planner editável** assim que você estiver logado. E se quiser personalizar o ritmo (ex: só estudar fim de semana ou 3x por semana), posso ajustar pra você.
+
+Deseja que eu transforme esse plano em um arquivo PDF quando puder logar?

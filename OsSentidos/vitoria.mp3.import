@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/vitoria.mp3-120082c1c2dfffe48517da288382f0fa.mp3str"
+
+[deps]
+
+source_file="res://musicas/vitoria.mp3"
+dest_files=[ "res://.import/vitoria.mp3-120082c1c2dfffe48517da288382f0fa.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

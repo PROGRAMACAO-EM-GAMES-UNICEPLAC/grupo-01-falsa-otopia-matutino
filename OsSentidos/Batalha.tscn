@@ -1,0 +1,803 @@
+[gd_scene load_steps=100 format=2]
+
+[ext_resource path="res://Batalha.gd" type="Script" id=1]
+[ext_resource path="res://sprites/chefes/holograma_spritesheet.png" type="Texture" id=2]
+[ext_resource path="res://sprites/protagonistas/ArtistaMarcial_spritesheet.png" type="Texture" id=3]
+[ext_resource path="res://sprites/protagonistas/Confeiteira_spritesheet.png" type="Texture" id=4]
+[ext_resource path="res://sprites/protagonistas/Desenhista_spritesheet.png" type="Texture" id=5]
+[ext_resource path="res://sprites/protagonistas/Florista_spritesheet.png" type="Texture" id=6]
+[ext_resource path="res://sprites/protagonistas/Maestro_spritesheet.png" type="Texture" id=7]
+[ext_resource path="res://sprites/chefes/RaizAmarga_spritesheet.png" type="Texture" id=8]
+[ext_resource path="res://sprites/chefes/LordVin_spritesheet.png" type="Texture" id=9]
+[ext_resource path="res://sprites/chefes/TubaraoAtirador_spritesheet.png" type="Texture" id=10]
+[ext_resource path="res://sprites/chefes/Fungo_spritesheet.png" type="Texture" id=11]
+[ext_resource path="res://musicas/batalha.mp3" type="AudioStream" id=12]
+
+[sub_resource type="AtlasTexture" id=23]
+flags = 4
+atlas = ExtResource( 3 )
+region = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=24]
+flags = 4
+atlas = ExtResource( 3 )
+region = Rect2( 32, 0, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=25]
+flags = 4
+atlas = ExtResource( 3 )
+region = Rect2( 64, 0, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=26]
+flags = 4
+atlas = ExtResource( 3 )
+region = Rect2( 96, 0, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=27]
+flags = 4
+atlas = ExtResource( 3 )
+region = Rect2( 128, 0, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=28]
+flags = 4
+atlas = ExtResource( 3 )
+region = Rect2( 160, 0, 32, 32 )
+
+[sub_resource type="SpriteFrames" id=29]
+animations = [ {
+"frames": [ SubResource( 23 ), SubResource( 24 ), SubResource( 25 ), SubResource( 26 ), SubResource( 27 ), SubResource( 28 ) ],
+"loop": true,
+"name": "idle",
+"speed": 10.0
+} ]
+
+[sub_resource type="AtlasTexture" id=30]
+flags = 4
+atlas = ExtResource( 4 )
+region = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=31]
+flags = 4
+atlas = ExtResource( 4 )
+region = Rect2( 32, 0, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=32]
+flags = 4
+atlas = ExtResource( 4 )
+region = Rect2( 64, 0, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=33]
+flags = 4
+atlas = ExtResource( 4 )
+region = Rect2( 96, 0, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=34]
+flags = 4
+atlas = ExtResource( 4 )
+region = Rect2( 128, 0, 32, 32 )
+
+[sub_resource type="SpriteFrames" id=35]
+animations = [ {
+"frames": [ SubResource( 30 ), SubResource( 31 ), SubResource( 32 ), SubResource( 33 ), SubResource( 34 ) ],
+"loop": true,
+"name": "idle",
+"speed": 10.0
+} ]
+
+[sub_resource type="AtlasTexture" id=36]
+flags = 4
+atlas = ExtResource( 7 )
+region = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=37]
+flags = 4
+atlas = ExtResource( 7 )
+region = Rect2( 32, 0, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=38]
+flags = 4
+atlas = ExtResource( 7 )
+region = Rect2( 64, 0, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=39]
+flags = 4
+atlas = ExtResource( 7 )
+region = Rect2( 96, 0, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=40]
+flags = 4
+atlas = ExtResource( 7 )
+region = Rect2( 128, 0, 32, 32 )
+
+[sub_resource type="SpriteFrames" id=41]
+animations = [ {
+"frames": [ SubResource( 36 ), SubResource( 37 ), SubResource( 38 ), SubResource( 39 ), SubResource( 40 ) ],
+"loop": true,
+"name": "idle",
+"speed": 10.0
+} ]
+
+[sub_resource type="AtlasTexture" id=42]
+flags = 4
+atlas = ExtResource( 5 )
+region = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=43]
+flags = 4
+atlas = ExtResource( 5 )
+region = Rect2( 32, 0, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=44]
+flags = 4
+atlas = ExtResource( 5 )
+region = Rect2( 64, 0, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=45]
+flags = 4
+atlas = ExtResource( 5 )
+region = Rect2( 96, 0, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=46]
+flags = 4
+atlas = ExtResource( 5 )
+region = Rect2( 128, 0, 32, 32 )
+
+[sub_resource type="SpriteFrames" id=47]
+animations = [ {
+"frames": [ SubResource( 42 ), SubResource( 43 ), SubResource( 44 ), SubResource( 45 ), SubResource( 46 ) ],
+"loop": true,
+"name": "idle",
+"speed": 10.0
+} ]
+
+[sub_resource type="AtlasTexture" id=48]
+flags = 4
+atlas = ExtResource( 6 )
+region = Rect2( 0, 0, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=49]
+flags = 4
+atlas = ExtResource( 6 )
+region = Rect2( 32, 0, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=50]
+flags = 4
+atlas = ExtResource( 6 )
+region = Rect2( 64, 0, 32, 32 )
+
+[sub_resource type="AtlasTexture" id=51]
+flags = 4
+atlas = ExtResource( 6 )
+region = Rect2( 96, 0, 32, 32 )
+
+[sub_resource type="SpriteFrames" id=52]
+animations = [ {
+"frames": [ SubResource( 48 ), SubResource( 49 ), SubResource( 50 ), SubResource( 51 ) ],
+"loop": true,
+"name": "idle",
+"speed": 10.0
+} ]
+
+[sub_resource type="AtlasTexture" id=11]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 0, 0, 128, 128 )
+
+[sub_resource type="AtlasTexture" id=12]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 128, 0, 128, 128 )
+
+[sub_resource type="AtlasTexture" id=13]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 256, 0, 128, 128 )
+
+[sub_resource type="AtlasTexture" id=14]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 384, 0, 128, 128 )
+
+[sub_resource type="AtlasTexture" id=15]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 0, 128, 128, 128 )
+
+[sub_resource type="AtlasTexture" id=16]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 128, 128, 128, 128 )
+
+[sub_resource type="AtlasTexture" id=17]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 256, 128, 128, 128 )
+
+[sub_resource type="AtlasTexture" id=18]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 384, 128, 128, 128 )
+
+[sub_resource type="AtlasTexture" id=19]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 0, 256, 128, 128 )
+
+[sub_resource type="AtlasTexture" id=20]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 128, 256, 128, 128 )
+
+[sub_resource type="AtlasTexture" id=21]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 256, 256, 128, 128 )
+
+[sub_resource type="AtlasTexture" id=53]
+flags = 4
+atlas = ExtResource( 10 )
+region = Rect2( 0, 0, 128, 128 )
+
+[sub_resource type="AtlasTexture" id=54]
+flags = 4
+atlas = ExtResource( 10 )
+region = Rect2( 128, 0, 128, 128 )
+
+[sub_resource type="AtlasTexture" id=55]
+flags = 4
+atlas = ExtResource( 10 )
+region = Rect2( 256, 0, 128, 128 )
+
+[sub_resource type="AtlasTexture" id=56]
+flags = 4
+atlas = ExtResource( 10 )
+region = Rect2( 384, 0, 128, 128 )
+
+[sub_resource type="AtlasTexture" id=57]
+flags = 4
+atlas = ExtResource( 10 )
+region = Rect2( 512, 0, 128, 128 )
+
+[sub_resource type="AtlasTexture" id=58]
+flags = 4
+atlas = ExtResource( 10 )
+region = Rect2( 640, 0, 128, 128 )
+
+[sub_resource type="AtlasTexture" id=59]
+flags = 4
+atlas = ExtResource( 10 )
+region = Rect2( 768, 0, 128, 128 )
+
+[sub_resource type="AtlasTexture" id=60]
+flags = 4
+atlas = ExtResource( 10 )
+region = Rect2( 896, 0, 128, 128 )
+
+[sub_resource type="AtlasTexture" id=61]
+flags = 4
+atlas = ExtResource( 10 )
+region = Rect2( 1024, 0, 128, 128 )
+
+[sub_resource type="AtlasTexture" id=62]
+flags = 4
+atlas = ExtResource( 10 )
+region = Rect2( 1152, 0, 128, 128 )
+
+[sub_resource type="AtlasTexture" id=63]
+flags = 4
+atlas = ExtResource( 10 )
+region = Rect2( 1280, 0, 128, 128 )
+
+[sub_resource type="AtlasTexture" id=64]
+flags = 4
+atlas = ExtResource( 9 )
+region = Rect2( 0, 0, 64, 64 )
+
+[sub_resource type="AtlasTexture" id=65]
+flags = 4
+atlas = ExtResource( 9 )
+region = Rect2( 64, 0, 64, 64 )
+
+[sub_resource type="AtlasTexture" id=66]
+flags = 4
+atlas = ExtResource( 9 )
+region = Rect2( 128, 0, 64, 64 )
+
+[sub_resource type="AtlasTexture" id=67]
+flags = 4
+atlas = ExtResource( 9 )
+region = Rect2( 192, 0, 64, 64 )
+
+[sub_resource type="AtlasTexture" id=68]
+flags = 4
+atlas = ExtResource( 9 )
+region = Rect2( 256, 0, 64, 64 )
+
+[sub_resource type="AtlasTexture" id=69]
+flags = 4
+atlas = ExtResource( 9 )
+region = Rect2( 320, 0, 64, 64 )
+
+[sub_resource type="AtlasTexture" id=70]
+flags = 4
+atlas = ExtResource( 9 )
+region = Rect2( 384, 0, 64, 64 )
+
+[sub_resource type="AtlasTexture" id=71]
+flags = 4
+atlas = ExtResource( 9 )
+region = Rect2( 448, 0, 64, 64 )
+
+[sub_resource type="AtlasTexture" id=72]
+flags = 4
+atlas = ExtResource( 9 )
+region = Rect2( 512, 0, 64, 64 )
+
+[sub_resource type="AtlasTexture" id=73]
+flags = 4
+atlas = ExtResource( 11 )
+region = Rect2( 0, 0, 128, 128 )
+
+[sub_resource type="AtlasTexture" id=74]
+flags = 4
+atlas = ExtResource( 11 )
+region = Rect2( 128, 0, 128, 128 )
+
+[sub_resource type="AtlasTexture" id=75]
+flags = 4
+atlas = ExtResource( 11 )
+region = Rect2( 256, 0, 128, 128 )
+
+[sub_resource type="AtlasTexture" id=76]
+flags = 4
+atlas = ExtResource( 11 )
+region = Rect2( 384, 0, 128, 128 )
+
+[sub_resource type="AtlasTexture" id=77]
+flags = 4
+atlas = ExtResource( 11 )
+region = Rect2( 512, 0, 128, 128 )
+
+[sub_resource type="AtlasTexture" id=78]
+flags = 4
+atlas = ExtResource( 11 )
+region = Rect2( 640, 0, 128, 128 )
+
+[sub_resource type="AtlasTexture" id=79]
+flags = 4
+atlas = ExtResource( 11 )
+region = Rect2( 768, 0, 128, 128 )
+
+[sub_resource type="AtlasTexture" id=80]
+flags = 4
+atlas = ExtResource( 8 )
+region = Rect2( 0, 0, 128, 128 )
+
+[sub_resource type="AtlasTexture" id=81]
+flags = 4
+atlas = ExtResource( 8 )
+region = Rect2( 128, 0, 128, 128 )
+
+[sub_resource type="AtlasTexture" id=82]
+flags = 4
+atlas = ExtResource( 8 )
+region = Rect2( 256, 0, 128, 128 )
+
+[sub_resource type="AtlasTexture" id=83]
+flags = 4
+atlas = ExtResource( 8 )
+region = Rect2( 384, 0, 128, 128 )
+
+[sub_resource type="AtlasTexture" id=84]
+flags = 4
+atlas = ExtResource( 8 )
+region = Rect2( 512, 0, 128, 128 )
+
+[sub_resource type="AtlasTexture" id=85]
+flags = 4
+atlas = ExtResource( 8 )
+region = Rect2( 640, 0, 128, 128 )
+
+[sub_resource type="AtlasTexture" id=86]
+flags = 4
+atlas = ExtResource( 8 )
+region = Rect2( 768, 0, 128, 128 )
+
+[sub_resource type="AtlasTexture" id=87]
+flags = 4
+atlas = ExtResource( 8 )
+region = Rect2( 896, 0, 128, 128 )
+
+[sub_resource type="SpriteFrames" id=22]
+animations = [ {
+"frames": [ SubResource( 11 ), SubResource( 12 ), SubResource( 13 ), SubResource( 14 ), SubResource( 15 ), SubResource( 16 ), SubResource( 17 ), SubResource( 18 ), SubResource( 19 ), SubResource( 20 ), SubResource( 21 ) ],
+"loop": true,
+"name": "chefe1",
+"speed": 10.0
+}, {
+"frames": [ SubResource( 53 ), SubResource( 54 ), SubResource( 55 ), SubResource( 56 ), SubResource( 57 ), SubResource( 58 ), SubResource( 59 ), SubResource( 60 ), SubResource( 61 ), SubResource( 62 ), SubResource( 63 ) ],
+"loop": true,
+"name": "chefe2",
+"speed": 10.0
+}, {
+"frames": [ SubResource( 64 ), SubResource( 65 ), SubResource( 66 ), SubResource( 67 ), SubResource( 68 ), SubResource( 69 ), SubResource( 70 ), SubResource( 71 ), SubResource( 72 ) ],
+"loop": true,
+"name": "chefe3",
+"speed": 5.0
+}, {
+"frames": [ SubResource( 73 ), SubResource( 74 ), SubResource( 75 ), SubResource( 76 ), SubResource( 77 ), SubResource( 78 ), SubResource( 79 ) ],
+"loop": true,
+"name": "chefe4",
+"speed": 5.0
+}, {
+"frames": [ SubResource( 80 ), SubResource( 81 ), SubResource( 82 ), SubResource( 83 ), SubResource( 84 ), SubResource( 85 ), SubResource( 86 ), SubResource( 87 ) ],
+"loop": true,
+"name": "chefe5",
+"speed": 10.0
+} ]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0.352941, 0.803922, 0.176471, 1 )
+
+[sub_resource type="StyleBoxFlat" id=2]
+
+[sub_resource type="StyleBoxFlat" id=3]
+bg_color = Color( 0.352941, 0.803922, 0.176471, 1 )
+
+[sub_resource type="StyleBoxFlat" id=4]
+
+[sub_resource type="StyleBoxFlat" id=5]
+bg_color = Color( 0.352941, 0.803922, 0.176471, 1 )
+
+[sub_resource type="StyleBoxFlat" id=6]
+
+[sub_resource type="StyleBoxFlat" id=7]
+bg_color = Color( 0.352941, 0.803922, 0.176471, 1 )
+
+[sub_resource type="StyleBoxFlat" id=8]
+
+[sub_resource type="StyleBoxFlat" id=9]
+bg_color = Color( 0.352941, 0.803922, 0.176471, 1 )
+
+[sub_resource type="StyleBoxFlat" id=10]
+
+[node name="Batalha" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+
+[node name="Fundo" type="ColorRect" parent="."]
+margin_right = 640.0
+margin_bottom = 360.0
+color = Color( 0.0980392, 0.0470588, 0.152941, 1 )
+
+[node name="Equipe" type="Control" parent="."]
+margin_left = 40.0
+margin_top = 15.0
+margin_right = 240.0
+margin_bottom = 240.0
+
+[node name="ArtistaMarcial" type="Control" parent="Equipe"]
+margin_left = 20.0
+margin_right = 60.0
+margin_bottom = 40.0
+
+[node name="Sprite" type="ColorRect" parent="Equipe/ArtistaMarcial"]
+visible = false
+margin_right = 40.0
+margin_bottom = 40.0
+color = Color( 0.658824, 0.27451, 0.27451, 1 )
+
+[node name="SpriteAnimado" type="AnimatedSprite" parent="Equipe/ArtistaMarcial"]
+position = Vector2( 39, 7 )
+scale = Vector2( 1.45312, 1.35938 )
+frames = SubResource( 29 )
+animation = "idle"
+playing = true
+flip_h = true
+
+[node name="Confeiteira" type="Control" parent="Equipe"]
+margin_left = 20.0
+margin_top = 43.0
+margin_right = 60.0
+margin_bottom = 83.0
+
+[node name="Sprite" type="ColorRect" parent="Equipe/Confeiteira"]
+visible = false
+margin_right = 40.0
+margin_bottom = 40.0
+color = Color( 0.831373, 0.576471, 0.176471, 1 )
+
+[node name="SpriteAnimado" type="AnimatedSprite" parent="Equipe/Confeiteira"]
+position = Vector2( 39, 3 )
+scale = Vector2( 1.375, 1.3125 )
+frames = SubResource( 35 )
+animation = "idle"
+playing = true
+flip_h = true
+
+[node name="Maestro" type="Control" parent="Equipe"]
+margin_left = 20.0
+margin_top = 86.0
+margin_right = 60.0
+margin_bottom = 126.0
+
+[node name="Sprite" type="ColorRect" parent="Equipe/Maestro"]
+visible = false
+margin_right = 40.0
+margin_bottom = 40.0
+color = Color( 0.501961, 0.835294, 0.137255, 1 )
+
+[node name="SpriteAnimado" type="AnimatedSprite" parent="Equipe/Maestro"]
+position = Vector2( 39, 7 )
+scale = Vector2( 1.4375, 1.5625 )
+frames = SubResource( 41 )
+animation = "idle"
+playing = true
+flip_h = true
+
+[node name="Desenhista" type="Control" parent="Equipe"]
+margin_left = 20.0
+margin_top = 129.0
+margin_right = 60.0
+margin_bottom = 169.0
+
+[node name="Sprite" type="ColorRect" parent="Equipe/Desenhista"]
+visible = false
+margin_right = 40.0
+margin_bottom = 40.0
+color = Color( 0.176471, 0.807843, 0.513726, 1 )
+
+[node name="SpriteAnimado" type="AnimatedSprite" parent="Equipe/Desenhista"]
+position = Vector2( 40, 11 )
+scale = Vector2( 1.59375, 1.4375 )
+frames = SubResource( 47 )
+animation = "idle"
+playing = true
+flip_h = true
+
+[node name="Florista" type="Control" parent="Equipe"]
+margin_left = 20.0
+margin_top = 172.0
+margin_right = 60.0
+margin_bottom = 212.0
+
+[node name="Sprite" type="ColorRect" parent="Equipe/Florista"]
+visible = false
+margin_right = 40.0
+margin_bottom = 40.0
+color = Color( 0.329412, 0.886275, 0.34902, 1 )
+
+[node name="SpriteAnimado" type="AnimatedSprite" parent="Equipe/Florista"]
+position = Vector2( 38, 19 )
+scale = Vector2( 1.8125, 1.8125 )
+frames = SubResource( 52 )
+animation = "idle"
+playing = true
+flip_h = true
+
+[node name="Chefe" type="Control" parent="."]
+margin_left = 400.0
+margin_top = 55.0
+margin_right = 560.0
+margin_bottom = 230.0
+
+[node name="BarraVidaChefe" type="ProgressBar" parent="Chefe"]
+visible = false
+margin_right = 4.0
+margin_bottom = 14.0
+
+[node name="Sprite" type="ColorRect" parent="Chefe"]
+visible = false
+margin_right = 40.0
+margin_bottom = 40.0
+
+[node name="SpriteAnimado" type="AnimatedSprite" parent="Chefe"]
+position = Vector2( 26.5, 58 )
+scale = Vector2( 1.33594, 1.28125 )
+frames = SubResource( 22 )
+animation = "chefe5"
+playing = true
+flip_h = true
+
+[node name="Interface" type="Control" parent="."]
+margin_top = 245.0
+margin_right = 640.0
+margin_bottom = 360.0
+
+[node name="StatusEquipe" type="HBoxContainer" parent="Interface"]
+margin_left = 4.0
+margin_right = 636.0
+margin_bottom = 43.0
+
+[node name="StatusArtista" type="VBoxContainer" parent="Interface/StatusEquipe"]
+margin_right = 123.0
+margin_bottom = 43.0
+size_flags_horizontal = 3
+
+[node name="Nome" type="Label" parent="Interface/StatusEquipe/StatusArtista"]
+margin_right = 123.0
+margin_bottom = 14.0
+text = "Artista"
+
+[node name="Vida" type="ProgressBar" parent="Interface/StatusEquipe/StatusArtista"]
+margin_top = 18.0
+margin_right = 123.0
+margin_bottom = 33.0
+rect_min_size = Vector2( 0, 15 )
+custom_styles/fg = SubResource( 1 )
+custom_styles/bg = SubResource( 2 )
+percent_visible = false
+
+[node name="StatusConfeiteira" type="VBoxContainer" parent="Interface/StatusEquipe"]
+margin_left = 127.0
+margin_right = 250.0
+margin_bottom = 43.0
+size_flags_horizontal = 3
+
+[node name="Nome" type="Label" parent="Interface/StatusEquipe/StatusConfeiteira"]
+margin_right = 123.0
+margin_bottom = 14.0
+text = "Confeiteira"
+
+[node name="Vida" type="ProgressBar" parent="Interface/StatusEquipe/StatusConfeiteira"]
+margin_top = 18.0
+margin_right = 123.0
+margin_bottom = 33.0
+rect_min_size = Vector2( 0, 15 )
+custom_styles/fg = SubResource( 3 )
+custom_styles/bg = SubResource( 4 )
+max_value = 80.0
+percent_visible = false
+
+[node name="StatusMaestro" type="VBoxContainer" parent="Interface/StatusEquipe"]
+margin_left = 254.0
+margin_right = 377.0
+margin_bottom = 43.0
+size_flags_horizontal = 3
+
+[node name="Nome" type="Label" parent="Interface/StatusEquipe/StatusMaestro"]
+margin_right = 123.0
+margin_bottom = 14.0
+text = "Maestro"
+
+[node name="Vida" type="ProgressBar" parent="Interface/StatusEquipe/StatusMaestro"]
+margin_top = 18.0
+margin_right = 123.0
+margin_bottom = 33.0
+rect_min_size = Vector2( 0, 15 )
+custom_styles/fg = SubResource( 5 )
+custom_styles/bg = SubResource( 6 )
+max_value = 120.0
+percent_visible = false
+
+[node name="StatusDesenhista" type="VBoxContainer" parent="Interface/StatusEquipe"]
+margin_left = 381.0
+margin_right = 504.0
+margin_bottom = 43.0
+size_flags_horizontal = 3
+
+[node name="Nome" type="Label" parent="Interface/StatusEquipe/StatusDesenhista"]
+margin_right = 123.0
+margin_bottom = 14.0
+text = "Desenhista"
+
+[node name="Vida" type="ProgressBar" parent="Interface/StatusEquipe/StatusDesenhista"]
+margin_top = 18.0
+margin_right = 123.0
+margin_bottom = 33.0
+rect_min_size = Vector2( 0, 15 )
+custom_styles/fg = SubResource( 7 )
+custom_styles/bg = SubResource( 8 )
+max_value = 90.0
+percent_visible = false
+
+[node name="StatusFlorista" type="VBoxContainer" parent="Interface/StatusEquipe"]
+margin_left = 508.0
+margin_right = 632.0
+margin_bottom = 43.0
+size_flags_horizontal = 3
+
+[node name="Nome" type="Label" parent="Interface/StatusEquipe/StatusFlorista"]
+margin_right = 124.0
+margin_bottom = 14.0
+text = "Florista"
+
+[node name="Vida" type="ProgressBar" parent="Interface/StatusEquipe/StatusFlorista"]
+margin_top = 18.0
+margin_right = 124.0
+margin_bottom = 33.0
+rect_min_size = Vector2( 0, 15 )
+custom_styles/fg = SubResource( 9 )
+custom_styles/bg = SubResource( 10 )
+value = 85.0
+percent_visible = false
+
+[node name="PainelAcoes" type="HBoxContainer" parent="Interface"]
+margin_left = 4.0
+margin_top = 48.0
+margin_right = 636.0
+margin_bottom = 78.0
+
+[node name="Atacar" type="Button" parent="Interface/PainelAcoes"]
+margin_right = 62.0
+margin_bottom = 30.0
+text = "ATACAR"
+
+[node name="Habilidade" type="Button" parent="Interface/PainelAcoes"]
+margin_left = 66.0
+margin_right = 159.0
+margin_bottom = 30.0
+text = "HABILIDADE"
+
+[node name="Defender" type="Button" parent="Interface/PainelAcoes"]
+margin_left = 163.0
+margin_right = 241.0
+margin_bottom = 30.0
+text = "DEFENDER"
+
+[node name="Passar" type="Button" parent="Interface/PainelAcoes"]
+margin_left = 245.0
+margin_right = 305.0
+margin_bottom = 30.0
+text = "PASSAR"
+
+[node name="Mensagem" type="Label" parent="Interface"]
+margin_left = 12.0
+margin_top = 86.0
+margin_right = 627.0
+margin_bottom = 111.0
+text = "Escolha uma ação"
+
+[node name="PainelCura" type="HBoxContainer" parent="Interface"]
+margin_left = 4.0
+margin_top = 48.0
+margin_right = 77.0
+margin_bottom = 88.0
+rect_min_size = Vector2( 300, 30 )
+
+[node name="CurarArtista" type="Button" parent="Interface/PainelCura"]
+margin_right = 55.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 55, 0 )
+text = "Artista"
+
+[node name="CurarConfeiteira" type="Button" parent="Interface/PainelCura"]
+margin_left = 59.0
+margin_right = 140.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 55, 0 )
+text = "Confeiteira"
+
+[node name="CurarMaestro" type="Button" parent="Interface/PainelCura"]
+margin_left = 144.0
+margin_right = 208.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 55, 0 )
+text = "Maestro"
+
+[node name="CurarDesenhista" type="Button" parent="Interface/PainelCura"]
+margin_left = 212.0
+margin_right = 296.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 55, 0 )
+text = "Desenhista"
+
+[node name="CurarFlorista" type="Button" parent="Interface/PainelCura"]
+margin_left = 300.0
+margin_right = 359.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 55, 0 )
+text = "Florista"
+
+[node name="TimerTurno" type="Timer" parent="."]
+wait_time = 1.5
+one_shot = true
+
+[node name="MusicaBatalha" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 12 )
+
+[connection signal="pressed" from="Interface/PainelAcoes/Atacar" to="." method="_on_Atacar_pressed"]
+[connection signal="pressed" from="Interface/PainelAcoes/Habilidade" to="." method="_on_Habilidade_pressed"]
+[connection signal="pressed" from="Interface/PainelAcoes/Defender" to="." method="_on_Defender_pressed"]
+[connection signal="pressed" from="Interface/PainelAcoes/Passar" to="." method="_on_Passar_pressed"]

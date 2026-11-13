@@ -1,0 +1,226 @@
+[gd_scene load_steps=35 format=2]
+
+[ext_resource path="res://MenuInicial.gd" type="Script" id=2]
+[ext_resource path="res://musicas/menu.mp3" type="AudioStream" id=3]
+[ext_resource path="res://Menu/arvore_spritesheet.png" type="Texture" id=4]
+
+[sub_resource type="AtlasTexture" id=1]
+flags = 4
+atlas = ExtResource( 4 )
+region = Rect2( 0, 0, 368, 368 )
+
+[sub_resource type="AtlasTexture" id=2]
+flags = 4
+atlas = ExtResource( 4 )
+region = Rect2( 368, 0, 368, 368 )
+
+[sub_resource type="AtlasTexture" id=3]
+flags = 4
+atlas = ExtResource( 4 )
+region = Rect2( 736, 0, 368, 368 )
+
+[sub_resource type="AtlasTexture" id=4]
+flags = 4
+atlas = ExtResource( 4 )
+region = Rect2( 1104, 0, 368, 368 )
+
+[sub_resource type="AtlasTexture" id=5]
+flags = 4
+atlas = ExtResource( 4 )
+region = Rect2( 1472, 0, 368, 368 )
+
+[sub_resource type="AtlasTexture" id=6]
+flags = 4
+atlas = ExtResource( 4 )
+region = Rect2( 1840, 0, 368, 368 )
+
+[sub_resource type="AtlasTexture" id=7]
+flags = 4
+atlas = ExtResource( 4 )
+region = Rect2( 0, 368, 368, 368 )
+
+[sub_resource type="AtlasTexture" id=8]
+flags = 4
+atlas = ExtResource( 4 )
+region = Rect2( 368, 368, 368, 368 )
+
+[sub_resource type="AtlasTexture" id=9]
+flags = 4
+atlas = ExtResource( 4 )
+region = Rect2( 736, 368, 368, 368 )
+
+[sub_resource type="AtlasTexture" id=10]
+flags = 4
+atlas = ExtResource( 4 )
+region = Rect2( 1104, 368, 368, 368 )
+
+[sub_resource type="AtlasTexture" id=11]
+flags = 4
+atlas = ExtResource( 4 )
+region = Rect2( 1472, 368, 368, 368 )
+
+[sub_resource type="AtlasTexture" id=12]
+flags = 4
+atlas = ExtResource( 4 )
+region = Rect2( 1840, 368, 368, 368 )
+
+[sub_resource type="AtlasTexture" id=13]
+flags = 4
+atlas = ExtResource( 4 )
+region = Rect2( 0, 736, 368, 368 )
+
+[sub_resource type="AtlasTexture" id=14]
+flags = 4
+atlas = ExtResource( 4 )
+region = Rect2( 368, 736, 368, 368 )
+
+[sub_resource type="AtlasTexture" id=15]
+flags = 4
+atlas = ExtResource( 4 )
+region = Rect2( 736, 736, 368, 368 )
+
+[sub_resource type="AtlasTexture" id=16]
+flags = 4
+atlas = ExtResource( 4 )
+region = Rect2( 1104, 736, 368, 368 )
+
+[sub_resource type="AtlasTexture" id=17]
+flags = 4
+atlas = ExtResource( 4 )
+region = Rect2( 1472, 736, 368, 368 )
+
+[sub_resource type="AtlasTexture" id=18]
+flags = 4
+atlas = ExtResource( 4 )
+region = Rect2( 1840, 736, 368, 368 )
+
+[sub_resource type="AtlasTexture" id=19]
+flags = 4
+atlas = ExtResource( 4 )
+region = Rect2( 0, 1104, 368, 368 )
+
+[sub_resource type="AtlasTexture" id=20]
+flags = 4
+atlas = ExtResource( 4 )
+region = Rect2( 368, 1104, 368, 368 )
+
+[sub_resource type="AtlasTexture" id=21]
+flags = 4
+atlas = ExtResource( 4 )
+region = Rect2( 736, 1104, 368, 368 )
+
+[sub_resource type="AtlasTexture" id=22]
+flags = 4
+atlas = ExtResource( 4 )
+region = Rect2( 1104, 1104, 368, 368 )
+
+[sub_resource type="AtlasTexture" id=23]
+flags = 4
+atlas = ExtResource( 4 )
+region = Rect2( 1472, 1104, 368, 368 )
+
+[sub_resource type="AtlasTexture" id=24]
+flags = 4
+atlas = ExtResource( 4 )
+region = Rect2( 1840, 1104, 368, 368 )
+
+[sub_resource type="AtlasTexture" id=25]
+flags = 4
+atlas = ExtResource( 4 )
+region = Rect2( 0, 1472, 368, 368 )
+
+[sub_resource type="AtlasTexture" id=26]
+flags = 4
+atlas = ExtResource( 4 )
+region = Rect2( 368, 1472, 368, 368 )
+
+[sub_resource type="AtlasTexture" id=27]
+flags = 4
+atlas = ExtResource( 4 )
+region = Rect2( 736, 1472, 368, 368 )
+
+[sub_resource type="AtlasTexture" id=28]
+flags = 4
+atlas = ExtResource( 4 )
+region = Rect2( 1104, 1472, 368, 368 )
+
+[sub_resource type="AtlasTexture" id=29]
+flags = 4
+atlas = ExtResource( 4 )
+region = Rect2( 1472, 1472, 368, 368 )
+
+[sub_resource type="AtlasTexture" id=30]
+flags = 4
+atlas = ExtResource( 4 )
+region = Rect2( 1840, 1472, 368, 368 )
+
+[sub_resource type="SpriteFrames" id=31]
+animations = [ {
+"frames": [ SubResource( 1 ), SubResource( 2 ), SubResource( 3 ), SubResource( 4 ), SubResource( 5 ), SubResource( 6 ), SubResource( 7 ), SubResource( 8 ), SubResource( 9 ), SubResource( 10 ), SubResource( 11 ), SubResource( 12 ), SubResource( 13 ), SubResource( 14 ), SubResource( 15 ), SubResource( 16 ), SubResource( 17 ), SubResource( 18 ), SubResource( 19 ), SubResource( 20 ), SubResource( 21 ), SubResource( 22 ), SubResource( 23 ), SubResource( 24 ), SubResource( 25 ), SubResource( 26 ), SubResource( 27 ), SubResource( 28 ), SubResource( 29 ), SubResource( 30 ) ],
+"loop": true,
+"name": "idle",
+"speed": 12.0
+} ]
+
+[node name="MenuInicial" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 2 )
+
+[node name="Fundo" type="AnimatedSprite" parent="."]
+position = Vector2( 328.75, 183.5 )
+scale = Vector2( 1.78125, 0.976 )
+z_index = -1
+frames = SubResource( 31 )
+animation = "idle"
+playing = true
+
+[node name="Titulo" type="Label" parent="."]
+modulate = Color( 0.352941, 0.878431, 0.117647, 1 )
+margin_left = -97.0
+margin_top = 131.0
+margin_right = 201.0
+margin_bottom = 240.0
+text = "Os Sentidos"
+align = 1
+valign = 1
+
+[node name="Jogar" type="Button" parent="."]
+margin_left = 3.0
+margin_top = 208.0
+margin_right = 115.0
+margin_bottom = 263.0
+custom_colors/font_color_hover_pressed = Color( 1, 0.956863, 0.298039, 1 )
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_colors/font_color_pressed = Color( 0.815686, 0.133333, 0.133333, 1 )
+text = "Iniciar Jogo"
+flat = true
+
+[node name="Creditos" type="Button" parent="."]
+margin_left = 12.0
+margin_top = 257.0
+margin_right = 100.0
+margin_bottom = 309.0
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_colors/font_color_hover = Color( 0.956863, 0.960784, 0.207843, 1 )
+custom_colors/font_color_pressed = Color( 0.752941, 0.145098, 0.145098, 1 )
+text = "Créditos"
+flat = true
+
+[node name="Sair" type="Button" parent="."]
+margin_left = 15.0
+margin_top = 310.0
+margin_right = 105.0
+margin_bottom = 351.0
+custom_colors/icon_color_pressed = Color( 0.866667, 0.168627, 0.168627, 1 )
+custom_colors/font_color_hover_pressed = Color( 0.890196, 0.878431, 0.196078, 1 )
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+text = "Sair"
+flat = true
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 3 )
+
+[connection signal="pressed" from="Jogar" to="." method="_on_Jogar_pressed"]
+[connection signal="pressed" from="Creditos" to="." method="_on_Creditos_pressed"]
+[connection signal="pressed" from="Sair" to="." method="_on_Sair_pressed"]

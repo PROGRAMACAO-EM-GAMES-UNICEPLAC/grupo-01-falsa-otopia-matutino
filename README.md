@@ -11,7 +11,7 @@ lutam para recuperar a essência humana.*
 [![JOGAR AGORA](https://img.shields.io/badge/▶_JOGAR_AGORA-005B96?style=for-the-badge)](https://programacao-em-games-uniceplac.github.io/grupo-01-falsa-otopia-matutino/web/)
 
 <a href="https://programacao-em-games-uniceplac.github.io/grupo-01-falsa-otopia-matutino/web/">
-  <img src="previews/menu.gif" width="850" alt="Os Sentidos">
+  <img src="previews/MenuGif.gif" width="850" alt="Os Sentidos">
 </a>
 
 **Clique na animação para jogar!**

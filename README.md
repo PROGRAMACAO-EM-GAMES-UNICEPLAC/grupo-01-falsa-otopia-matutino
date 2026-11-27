@@ -8,9 +8,11 @@
 *Em um mundo que esqueceu como sentir, cinco heróis
 lutam para recuperar a essência humana.*
 
-[![JOGAR AGORA](https://img.shields.io/badge/▶_JOGAR_AGORA-005B96?style=for-the-badge)](https://programacao-em-games-uniceplac.github.io/grupo-01-falsa-otopia-matutino/web/)
 
-<a href="https://programacao-em-games-uniceplac.github.io/grupo-01-falsa-otopia-matutino/web/">
+[![BAIXAR JOGO](https://img.shields.io/badge/BAIXAR_JOGO-WINDOWS-005B96?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/WilliamCavalcante36/os-sentidos-web/releases/download/v1.0.0/OsSentidos.zip)
+
+
+<a href="https://github.com/WilliamCavalcante36/os-sentidos-web/releases/download/v1.0.0/OsSentidos.zip">
   <img src="previews/MenuGif.gif" width="850" alt="Os Sentidos">
 </a>
 

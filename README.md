@@ -9,7 +9,11 @@
 lutam para recuperar a essência humana.*
 
 
-[![BAIXAR JOGO](https://img.shields.io/badge/BAIXAR_JOGO-WINDOWS-005B96?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/WilliamCavalcante36/os-sentidos-web/releases/download/v1.0.0/OsSentidos.zip)
+<h2 align="center">
+  <a href="https://github.com/WilliamCavalcante36/os-sentidos-web/releases/download/v1.0.0/OsSentidos.zip">
+    🎮 BAIXAR JOGO
+  </a>
+</h2>
 
 
 <a href="https://github.com/WilliamCavalcante36/os-sentidos-web/releases/download/v1.0.0/OsSentidos.zip">
